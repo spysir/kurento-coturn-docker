@@ -23,9 +23,9 @@ RUN wget http://turnserver.open-sys.org/downloads/v4.4.2.2/turnserver-4.4.2.2-de
 
 COPY ./turnserver.sh /turnserver.sh
 
-ENV TURN_USERNAME kurento
-ENV TURN_PASSWORD kurento
-ENV REALM kurento.org
+ENV TURN_USERNAME xve
+ENV TURN_PASSWORD xve.me
+ENV REALM turn.xve.me
 ENV NAT true
 
 EXPOSE 3478 3478/udp

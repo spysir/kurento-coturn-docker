@@ -23,8 +23,8 @@ RUN wget http://turnserver.open-sys.org/downloads/v4.4.2.2/turnserver-4.4.2.2-de
 
 COPY ./turnserver.sh /turnserver.sh
 
-ENV TURN_USERNAME xve
-ENV TURN_PASSWORD xve.me
+ENV TURN_USERNAME superman
+ENV TURN_PASSWORD fuckyou305209
 ENV REALM turn.xpk.me
 ENV NAT true
 

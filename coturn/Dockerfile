@@ -23,9 +23,9 @@ RUN wget http://turnserver.open-sys.org/downloads/v4.4.2.2/turnserver-4.4.2.2-de
 
 COPY ./turnserver.sh /turnserver.sh
 
-ENV TURN_USERNAME superman
-ENV TURN_PASSWORD fuckyou305209
-ENV REALM turn.xpk.me
+ENV TURN_USERNAME yes
+ENV TURN_PASSWORD 654321
+ENV REALM turn.xxx.com
 ENV NAT true
 
 EXPOSE 3478 3478/udp

@@ -25,7 +25,7 @@ COPY ./turnserver.sh /turnserver.sh
 
 ENV TURN_USERNAME xve
 ENV TURN_PASSWORD xve.me
-ENV REALM turn.xve.me
+ENV REALM turn.xpk.me
 ENV NAT true
 
 EXPOSE 3478 3478/udp

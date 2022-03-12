@@ -17,9 +17,9 @@ RUN apt-get update && apt-get install -y \
   telnet \
   wget
 
-RUN wget http://turnserver.open-sys.org/downloads/v4.4.2.2/turnserver-4.4.2.2-debian-wheezy-ubuntu-mint-x86-64bits.tar.gz \
-  && tar xzf turnserver-4.4.2.2-debian-wheezy-ubuntu-mint-x86-64bits.tar.gz \
-  && dpkg -i coturn_4.4.2.2-1_amd64.deb
+RUN wget http://turnserver.open-sys.org/downloads/v4.4.5.3/turnserver-4.4.5.3-debian-wheezy-ubuntu-mint-x86-64bits.tar.gz \
+  && tar xzf turnserver-4.4.5.3-debian-wheezy-ubuntu-mint-x86-64bits.tar.gz \
+  && dpkg -i coturn_4.4.5.3-1_amd64.deb
 
 COPY ./turnserver.sh /turnserver.sh
 

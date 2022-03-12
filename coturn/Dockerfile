@@ -25,7 +25,7 @@ COPY ./turnserver.sh /turnserver.sh
 
 ENV TURN_USERNAME yes
 ENV TURN_PASSWORD 654321
-ENV REALM turn.xxx.com
+ENV REALM turn.com
 ENV NAT true
 
 EXPOSE 3478 3478/udp

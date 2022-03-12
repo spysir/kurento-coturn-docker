@@ -1,4 +1,4 @@
-# coturn-docker
+# compile and run turnserver
 
 git clone https://github.com/spysir/kurento-coturn-docker
 
